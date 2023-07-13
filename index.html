@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfoliio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="lg1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">portfoliio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Satyendra</span> <br>From Uttar Pradesh,India.</h1>
+                
+            </div>
+        </div>
+    </div>
+    <!-- /*-------------about---------*/ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pic.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Satyendra from Maharajganj district of Uttar Pradesh.</p>
+                    <p>I want work for organisation which provides opportunities to improve my skills and knowledege
+                        along with organisation growth.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web App interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>june 2023- current</span><br>Web Development intern at Oasis Infobyte</li>
+                            <li><span>jan 2022- march 2022</span><br>Application Development intern at Doubtfree</li>
+                            <li><span>2020- 2024</span><br>B.tech(CSE) at Greater Noida Institute Of Technology</li>
+                            <li><span>2018 - 2019</span><br>Passed 12th from Janta Inter College with 78.8%</li>
+                            <li><span>2016 - 2017</span><br>Passsed 10th From Jawahar Navodaya Vidyalaya Kushinagar with 95%</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 onwards</span><br>Persuing B.Tech(CSE) from Greater Noida Institute Of Technology</li>
+                            <li><span>2017 - 2019</span><br>Passed Intermediate Janta Inter College</li>
+                            <li><span>2016 - 2017</span><br>Passed Matriculation from Jawahar Navodaya Vidyalaya Kushinagar</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------services------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>It involves a wide range of skills and disciplines, including web design, front-end development,
+                        back-end development, and database management.
+                        Web developers utilize programming languages like HTML, CSS, and JavaScript to craft the visual
+                        layout and interactive elements of websites. They work on the front-end, focusing on user
+                        experience and ensuring that websites are responsive, accessible, and visually appealing across
+                        different devices and browsers.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UI/UX design refers to the process of creating user interfaces and experiences for digital
+                        products such as websites, mobile apps, and software applications. It focuses on enhancing user
+                        satisfaction, usability, and overall interaction with the product.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>"Passionate and creative app designer with a focus on crafting engaging and user-centric
+                        experiences. I have a deep understanding of the mobile app landscape and leverage my expertise
+                        in UI/UX design principles to create visually stunning and intuitive interfaces.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------portfolio--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work 1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, iste.
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Work2.jpg" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, iste.
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Work3.jpg" alt="">
+                    <div class="layer">
+                        <h3>Online shopping App</h3>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, iste.
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <!-- --------------contact------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> skysbz2000@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>9794177468</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href="www.linkedin.com/in/satyendra-kumar-yadav-563a55226"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="satyendra_resume.pdf.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="your Name" required>
+                        <input type="email" name="Email" placeholder="your email" required>
+                        <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright ©Satyendra_KUMAR <i class="fas fa-heart"></i> with help of Love Babbar Bhaiya Videos </p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+
+    </script>
+</body>
+
+</html>
